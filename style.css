@@ -1,0 +1,219 @@
+html, body
+{
+  height: 100%;
+  width: 100%;
+  font-family: 'Anton', sans-serif;
+}
+
+button, h1, h2, h3,p
+{
+  font-family: 'Anton', sans-serif;
+}
+
+body
+{
+  margin: 0px;
+  position: relative;
+  background: center /  contain no-repeat url(./images/header-bg.jpg); 
+  display:flex;
+  justify-content: center;
+  
+}
+.container__body
+{
+  max-width:1170px; 
+  width:1170px;
+  margin-bottom: 243px;
+} 
+h1
+{
+  color: rgb(0, 0, 0);
+  font-size: 44px; 
+  text-align:center;
+} 
+.paragraf
+{ 
+  font-size: 20px;
+  line-height: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: #545692;
+  padding: 10px;
+}
+
+.btn
+{
+  background-color: #1ea6c8;
+  width: 100px;
+  height: 50px;
+  border: 1px solid  #1e48c8 ;
+  border-radius: 8px;
+}
+  
+.spisok1{ 
+  font-size: 20px;
+  line-height: 25px;
+  display: flex;
+  flex-direction: column;
+  background-color: #65a046;
+  padding: 10px;
+}
+.spisok2{ 
+  font-size: 20px;
+  line-height: 25px;
+  display: flex;
+  flex-direction: column;
+  background-color: #925454;
+  padding: 10px;
+} 
+.img
+{
+  width: 100vw;
+ 
+}
+.title
+{ 
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 151px;
+  margin-top: 28px;
+} 
+.buttont
+{
+  margin-top: 20px;
+  box-sizing: border-box;
+  font-family: 'Anton'; 
+  width: 238px;
+  height: 57px; 
+  background: none;
+  border: 1px solid #FFFFFF; 
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  text-transform: uppercase;
+/*   делает наш текст ЗАГЛАВНЫМ ИЛИ СТАВИТ CAPS LOCK*/
+  color: #FFFFFF;
+  cursor: pointer; 
+  display: flex;
+/*  делает наш блок - контейнером и позволяет позиционировать элементы внутри себе  */
+  justify-content: center;
+/*  отвечает за горизонтальное позиционирование  */
+  align-items: center;
+/*   отвечает за вертикальное  позиционирование  */
+}
+/* псевдо класс */
+.buttont:hover
+{
+  background-color: rgba(0, 0, 0, 0.3);
+  left: 211px;
+  top: 516px;
+} 
+.title3
+{ 
+  width: 450px;
+  height: 44px;   
+  font-family: 'Anton';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin: 0px;
+}
+ 
+.conteiner__header
+{
+  display: flex; 
+/*  изначально делает контейнер строкой */
+  flex-direction: column;
+/*   задает позиционирование сверху вниз */
+  justify-content: start;
+/*    */
+  align-items: start;
+/*    */
+  margin-top:230px;
+  
+}
+.conteiner__top
+{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  list-style:none;
+  grid-column-gap: 30px;
+   
+} 
+.nav_btn{
+  border: none;
+  background: none;
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  cursor: pointer;
+  
+}
+.number
+{
+  display: block;
+  margin-left: auto;
+  
+}
+.conteiner__down
+{
+  display: flex;
+  flex-direction: column;
+  margin-top: 113px; 
+}
+.conteiner__down_left
+{
+  width: 564px;
+  min-width:564px;
+}
+.title__h2
+{
+  font-size: 50px;
+  display:block
+}
+.title__h3
+{
+  font-size: 25px;
+}
+.text_down_left
+{
+  font-size: 16px;
+  height: 192px;
+}
+.img2
+{+
+  margin-top: 113px;
+  margin-right: 29px;
+  
+}
+.conteiner__down_right
+{
+  width: 564px;
+}
+.title__h31
+{
+  font-size: 25px;
+}
+.text_down_right
+{
+  font-size: 16px;
+  height: 192px;
+}
+.conteiner__down__wrapper
+{
+  display:flex;
+  gap:36px;
+}
+.image__wrapper
+{
+  display:flex;
+  gap:29px
+}
